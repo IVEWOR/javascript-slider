@@ -8,42 +8,50 @@
     <style>
       .slide {
         text-align: center;
-        box-shadow: 0 0 12px #ccc;
         display: none;
       }
       #active {
-        background-color: #ccc;
+        border: solid 1px #333;
         display: block;
+      }
+      .btn-wrapper {
+        text-align: center;
+        border: solid 1px #333;
+        margin: 10px auto;
+        padding: 10px;
+        width: 130px;
       }
     </style>
   </head>
   <body>
     <div class="slider">
-      <button id="last">Last</button>
-      <button id="next">Next</button>
       <div class="slide" id="active">
-        <img src="img.jpeg" />
+        <img src="https://source.unsplash.com/400x400" />
         <h2>Slide 1</h2>
       </div>
       <div class="slide">
-        <img src="img.jpeg" />
+        <img src="https://source.unsplash.com/410x400" />
         <h2>Slide 2</h2>
       </div>
       <div class="slide">
-        <img src="img.jpeg" />
+        <img src="https://source.unsplash.com/420x400" />
         <h2>Slide 3</h2>
       </div>
       <div class="slide">
-        <img src="img.jpeg" />
+        <img src="https://source.unsplash.com/430x400" />
         <h2>Slide 4</h2>
       </div>
       <div class="slide">
-        <img src="img.jpeg" />
+        <img src="https://source.unsplash.com/440x400" />
         <h2>Slide 5</h2>
       </div>
       <div class="slide">
-        <img src="img.jpeg" />
+        <img src="https://source.unsplash.com/450x400" />
         <h2>Slide 6</h2>
+      </div>
+      <div class="btn-wrapper">
+        <button id="last">Last</button>
+        <button id="next">Next</button>
       </div>
     </div>
     <script src="app.js"></script>
