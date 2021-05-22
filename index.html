@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Slider</title>
+    <style>
+      .slide {
+        text-align: center;
+        box-shadow: 0 0 12px #ccc;
+        display: none;
+      }
+      #active {
+        background-color: #ccc;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      <button id="last">Last</button>
+      <button id="next">Next</button>
+      <div class="slide" id="active">
+        <img src="img.jpeg" />
+        <h2>Slide 1</h2>
+      </div>
+      <div class="slide">
+        <img src="img.jpeg" />
+        <h2>Slide 2</h2>
+      </div>
+      <div class="slide">
+        <img src="img.jpeg" />
+        <h2>Slide 3</h2>
+      </div>
+      <div class="slide">
+        <img src="img.jpeg" />
+        <h2>Slide 4</h2>
+      </div>
+      <div class="slide">
+        <img src="img.jpeg" />
+        <h2>Slide 5</h2>
+      </div>
+      <div class="slide">
+        <img src="img.jpeg" />
+        <h2>Slide 6</h2>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
